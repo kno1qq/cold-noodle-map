@@ -1,0 +1,271 @@
+
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(44, 43, 43);
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* 主要内容样式 */
+.main-content {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.image-container {
+    margin-top: 30px;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: rgb(44, 43, 43);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.selectbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(194, 188, 188);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+.selectbutton:hover {
+    background-color: #877979;
+}
+.rPage {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+.commentSpace,
+.restaurant,
+.content {
+    flex: 1 1 auto;
+    margin: 10px;
+}
+/* .restaurant {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+} */
+.restaurant {
+    display: flex;
+    align-items: center;
+  }
+.aa {
+    width: 30%;
+    flex: 0 0 250px;
+    height: 200px;
+}
+.aa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+/* .content {
+    width: 70%;
+} */
+.content {
+    width: 70%;
+    padding-left: 20px;
+  }
+  
+  .content > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  .comment {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .comment input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(194, 188, 188);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #877979;
+  }
+
+.star {
+    width: 100px; /* 請根據實際圖片寬度進行調整 */
+    height: auto; /* 根據圖片比例，或者根據需要設置具體高度 */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.commentSpace {
+    margin-top: 20px;
+  }
+  
+  .CCC {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .CCCtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .CCCname {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .CCCscore {
+    margin: 0;
+    font-size: 20px;
+    color: #888;
+  }
+  
+  .CCCtext {
+    margin: 0;
+    font-size: 17px;
+    border: 1px solid #ccc; /* 添加边框样式 */
+    border-radius: 5px; /* 添加圆角 */
+    padding: 10px; /* 添加内边距 */
+  }
+
+  #banner {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+
+#banner img {
+    float: right;
+    width: 40px;
+    margin-right: 0px;
+}
+
+#item_num {
+    float: right;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 8px;
+    line-height: 18px;
+    color: white;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+#cart_win {
+    position: absolute;
+    top: 150px;
+    left: 280px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0, 0.5);
+    width: 360px;
+    padding-top: 30px;
+}
+.cart_img {
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+.cart_text {
+    float: left;
+    width: 280px;
+    letter-spacing: 2px;
+    margin-top: 4px;
+}
+
+.cart_price {
+    width: 100px;
+    float: left;
+    letter-spacing: 2px;
+}
+
+.cart_delete {
+    float: left;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.cart_delete:hover {
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    border-radius: 4px;
+}
+.total-rating {
+  width: 300px;
+}
